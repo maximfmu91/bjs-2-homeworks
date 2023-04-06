@@ -26,15 +26,6 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   if (typeof percent === 'string') {
     percent = +percent;
   }
-// if (typeof contribution === 'string') {
-//     contribution = +contribution;
-//   }
-//   if (typeof amount === 'string') {
-//     amount = +amount;
-//   }
-//   if (typeof countMonths === 'string') {
-//     countMonths = +countMonths;
-//   }
 
   if (isNaN(percent) ||
       isNaN(contribution) ||
